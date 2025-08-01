@@ -1,3 +1,19 @@
+## Weather app 
+This is a simple Laravel app that displays weather data from a local JSON file. It simulates an API response by showing the data in a table on the web page.
+
+## Files Included
+weather.json – stored in the storage/app folder
+WeatherController – loads and decodes the JSON
+Blade view – shows the weather data in a table
+
+## How to run 
+1. Clone repo
+2. Install dependencies 
+3. Copy the .env file and generate the app key - (Optional since there's no DB, but it’s standard Laravel setup)
+4. Run server: php artisan serve
+5. Open local host to see table 
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
